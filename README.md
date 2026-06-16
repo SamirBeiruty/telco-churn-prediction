@@ -11,6 +11,8 @@ interpretation → business recommendations.**
 
 > **Dataset:** [IBM Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) — 7,043 customers × 21 features. Target: `Churn` (Yes/No).
 
+> **New to data science?** Read [`reports/Telco_Churn_Interview_Guide.pdf`](reports/Telco_Churn_Interview_Guide.pdf) — a plain-English walkthrough with a glossary of every term and an interview Q&A.
+
 ---
 
 ## Results
@@ -76,6 +78,7 @@ telco-churn-prediction/
 │   └── pipeline.py                      # CLI: runs everything end to end
 ├── reports/
 │   ├── 01_churn_analysis.html           # rendered notebook (no Jupyter needed)
+│   ├── Telco_Churn_Interview_Guide.pdf  # plain-English guide + glossary + Q&A
 │   ├── metrics.json                     # saved scores
 │   └── figures/                         # saved plots
 ├── models/churn_model.joblib            # trained, ready-to-load pipeline
