@@ -1,0 +1,46 @@
+{
+  "best_model": "logistic_regression",
+  "cv_results": {
+    "logistic_regression": {
+      "cv_auc_mean": 0.8457795957141074,
+      "cv_auc_std": 0.011254873403486266
+    },
+    "random_forest": {
+      "cv_auc_mean": 0.8454015434172378,
+      "cv_auc_std": 0.008882962460631248
+    },
+    "hist_gradient_boosting": {
+      "cv_auc_mean": 0.8301338400235956,
+      "cv_auc_std": 0.008314719520024884
+    }
+  },
+  "decision_threshold": 0.5953700381182142,
+  "test_default_threshold": {
+    "accuracy": 0.7345635202271115,
+    "precision": 0.5,
+    "recall": 0.7941176470588235,
+    "f1": 0.6136363636363636,
+    "roc_auc": 0.842359657960681,
+    "pr_auc": 0.6372476624998095
+  },
+  "test_tuned_threshold": {
+    "accuracy": 0.7721788502484032,
+    "precision": 0.554639175257732,
+    "recall": 0.7192513368983957,
+    "f1": 0.6263096623981373,
+    "roc_auc": 0.842359657960681,
+    "pr_auc": 0.6372476624998095
+  },
+  "top_features": {
+    "tenure": 0.1448,
+    "Contract": 0.0452,
+    "InternetService": 0.0441,
+    "MonthlyCharges": 0.0381,
+    "tenure_group": 0.0069,
+    "OnlineSecurity": 0.0048,
+    "num_services": 0.0048,
+    "TechSupport": 0.0042,
+    "PaymentMethod": 0.0029,
+    "StreamingMovies": 0.0022
+  }
+}
